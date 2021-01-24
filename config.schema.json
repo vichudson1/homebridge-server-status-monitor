@@ -1,29 +1,28 @@
 {
-  "pluginAlias": "Server Status Monitor",
-  "pluginType": "platform",
-  "singular": false,
-  "schema": {
-    "type": "object",
-    "properties": {
-      "name": {
-        "title": "Name",
-        "type": "string",
-        "required": true,
-        "default": "Server Monitor"
-      },
-	  "url": {
-		  "title": "Server URL",
-		  "type": "string",
-		  "required": true,
-		  "default": "http://example.com"
-		},
-		"pullInterval": {
-			"title": "Pull Interval",
-			  "type": "number",
-			  "required": true,
-			  "default": 5000
+	"pluginAlias": "Server Status Monitor",
+	"pluginType": "platform",
+	"singular": false,
+	"schema": {
+		"type": "object",
+		"properties": {
+			"name": {
+				"title": "Name",
+				"type": "string",
+				"required": true,
+				"default": "Server Monitor"
+			},
+			"url": {
+				"title": "Server URL",
+				"type": "string",
+				"required": true,
+				"default": "http://example.com"
+			},
+			"pullInterval": {
+				"title": "Pull Interval",
+				"type": "number",
+				"required": true,
+				"default": 5000
+			}
 		}
-	  
-    }
-  }
+	}
 }
