@@ -1,5 +1,5 @@
 {
-  "pluginAlias": "ExampleHomebridgePlugin",
+  "pluginAlias": "Server Status Monitor",
   "pluginType": "platform",
   "singular": true,
   "schema": {
